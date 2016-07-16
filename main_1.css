@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/bike_background.jpg");
+    background-color: black;
+        
+        
+    
+}
+
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 55px;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.6s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Strip the ul of padding and list styling*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*! position: absolute; */
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+/*Create a horizontal list with spacing*/
+li {
+    display: inline-block;
+    max-width: 204px;
+    padding: 1px .5px 0 8px;
+}
+
+/*Style for menu links*/
+li a {
+    display: block;
+   
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    font-family:Helvetica, Arial, Sans-Serif ;
+    color: #46B732;
+    text-decoration: none;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+    background: #222E33;
+    color: #f9fbf7;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+    background: #222E33;
+    color: #f9fbf7;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.page {
+    text-align: center;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 0px;
+}
+main {
+text-align: center;
+    margin-bottom: 25px;
+   
+margin-top: 50px;
+height: 450px;
+color:#f4511e;
+}
+header li {
+    display: inline;
+
+}
+
+
+h2{
+    text-align: center;
+    margin: 6px 18px -23px -11px;
+    color: #b9da36;
+    font-size: 4em;
+}
+
+
+
+#add_product_form {
+
+     color: #b9da36;
+    
+}
+#add_product_form label {
+    width: 5em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    display: inline-block;
+    text-align: left;
+
+}
+
+
+#add_product_form input {
+  color:black;
+    padding: 2px auto;
+    margin: 10px auto;
+  
+   
+}
+#add_product_form input[text] {
+    width: 35em;
+    text-align: left;
+}
+
+
+table {
+     color: #b9da36;
+    border-collapse: collapse;
+    margin:0 auto;
+   
+}
+td, th {
+
+    padding: .5em .7em .5em .10em;
+    text-align: left;
+}
+form {
+
+}
