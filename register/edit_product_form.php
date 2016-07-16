@@ -43,8 +43,7 @@
                     <label>&nbsp;</label>
                     <input type="submit" value="Edit Product"><br>
                 </form>
-                
-                <a href="?action=list_products"><button class="button" style="vertical-align:middle"><span>Product List</span></button></a>
+              
 
             </main>
             <footer>

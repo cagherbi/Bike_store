@@ -61,8 +61,8 @@
                             </tr>
                         <?php endforeach; ?>
                     </table>
-                    <p><a href="?action=show_add_form">Add Product</a></p>
-                    <p class="last_paragraph"><a href="?action=list_categories">List Categories</a></p>        
+                    
+                  
                 </section>
             </main>
             <footer>
