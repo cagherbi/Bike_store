@@ -167,3 +167,13 @@ td, th {
 form {
 
 }
+
+
+#edit_product_form {
+    
+     margin: .5em 0;
+}
+
+#edit_product_form input {
+    float: left;
+}

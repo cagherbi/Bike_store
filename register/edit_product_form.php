@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +5,6 @@
         <title>Edit Inventory</title>
         <meta http-equiv="Content-type" content="text/html;charset=utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
         <link href="../main_1.css" rel="stylesheet" type="text/css">
 
     </head>  <!--end of head=-->
@@ -15,7 +12,7 @@
         <div class="page">
             <header>    
                 <!--start of header=-->
-            <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'; ?>
                 <!--start of header=-->
             </header>
             <nav>
@@ -25,7 +22,7 @@
             </nav>
             <h2> Edit Inventory</h2>
             <main>
-                <form action="." method="post">
+                <form action="." method="post" id="edit_product_form">
                     <input type="hidden" name="action"
                            value="update_product">
 
@@ -46,8 +43,9 @@
                     <label>&nbsp;</label>
                     <input type="submit" value="Edit Product"><br>
                 </form>
-                <p><a href="products.php">View Product List</a></p>
-             
+                
+                <a href="?action=list_products"><button class="button" style="vertical-align:middle"><span>Product List</span></button></a>
+
             </main>
             <footer>
 
