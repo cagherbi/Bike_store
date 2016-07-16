@@ -8,14 +8,14 @@
         <meta http-equiv="Content-type" content="text/html;charset=utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <link href="../main_1.css" rel="stylesheet" type="text/css">
+        <link href="../main.css" rel="stylesheet" type="text/css">
 
     </head>  <!--end of head=-->
     <body>
         <div class="page">
               <header>    
                 <!--start of header=-->
-            <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'; ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/header.php'; ?>
                 <!--start of header=-->
             </header>
             <nav>
