@@ -61,7 +61,7 @@
                             </tr>
                         <?php endforeach; ?>
                     </table>
-                    
+                        <a href="?action=add_product"><button class="button" style="vertical-align:middle"><span>Add Product</span></button></a>  
                   
                 </section>
             </main>

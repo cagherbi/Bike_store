@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("images/bike_background.jpg");
+
     background-color: black;
         
         
@@ -170,10 +170,25 @@ form {
 
 
 #edit_product_form {
-    
-     margin: .5em 0;
+    margin: 0 auto;
 }
 
 #edit_product_form input {
-    float: left;
+   
+    text-align: left;
+}   
+#edit_product_form input {
+   
+    padding: 2px auto;
+    margin: 10px auto;
+
 }
+#edit_product_form label {
+    width: 6em;
+    padding-right: 2em;
+    padding-bottom: .7em;
+    display: inline-block;
+    text-align: left;
+    color: #b9da36;
+}
+
