@@ -3,27 +3,25 @@
     <head>
         <!--start of head=-->
         <title>Log in</title>
-        <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+           <?php include '../view/head.php'; ?>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-   
-        <link href="../main.css" rel="stylesheet" type="text/css">
-     
+
+         <link href="../css/main.css" rel="stylesheet" type="text/css">
+
     </head>  <!--end of head=-->
     <body>
         <div class="page">
-        <header>    
-            <!--start of header=-->
-           <!--start of header=-->
-            <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/header.php'; ?>
+            <header>    
                 <!--start of header=-->
-        </header>
-        <nav>
+                <?php include '../view/header.php'; ?>
+                <!--start of header=-->
+            </header>
+            <nav>
                 <!--start of navigation=-->
-        
-                   <!--End of navigation=-->
-        </nav>
-<main>
-
+                <?php include '../view/nav.php'; ?>
+                <!--End of navigation=-->
+            </nav>
+            <main>
                 <h2>Employee Login</h2>
                 <br>
                 <br>
@@ -39,13 +37,11 @@
                     <input type='hidden' name='action' value='login_submit' />
                     <input type='submit' name='Login' value='Login' />  
                 </form>
-
             </main>
-
             <footer>
-
+                    <?php include '../view/footer.php'; ?>
             </footer>
         </div>
     </body>
 </html>
-            
+   

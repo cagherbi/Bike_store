@@ -3,36 +3,34 @@
     <head>
         <!--start of head=-->
         <title>Store</title>
-        <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+        <?php include 'view/head.php'; ?>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-   
-        <link href="main_1.css" rel="stylesheet" type="text/css">
-     
+
+        <link href="main.css" rel="stylesheet" type="text/css">
+
     </head>  <!--end of head=-->
     <body>
         <div class="page">
-        <header>    
-            <!--start of header=-->
-            <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'; ?>
+            <header>    
                 <!--start of header=-->
-        </header>
-        <nav>
+                <?php include 'view/header.php'; ?>
+                <!--start of header=-->
+            </header>
+            <nav>
                 <!--start of navigation=-->
-        
-                   <!--End of navigation=-->
-        </nav>
-<main>
-       
-    <h2>WELCOME TO BIKE DESERT STORE</h2>
-    
-    <a href="/store/register/"><button class="button" style="vertical-align:middle"><span>Login</span></button></a>
-    
-                
-</main>
+                <?php include 'view/nav.php'; ?>
+                <!--End of navigation=-->
+            </nav>
+            <main>
 
- <footer>
-           
+                <h2>WELCOME TO BIKE DESERT STORE</h2>
+               <a href="/store/register/"><button class="button" style="vertical-align:middle"><span>Login</span></button></a>
+            </main>
+
+            <footer>
+                <?php include 'view/footer.php'; ?>
             </footer>
+
         </div>
     </body>
 </html>

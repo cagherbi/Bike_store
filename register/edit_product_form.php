@@ -3,21 +3,21 @@
     <head>
         <!--start of head=-->
         <title>Edit Inventory</title>
-        <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+        <?php include '../view/head.php'; ?>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link href="../main.css" rel="stylesheet" type="text/css">
+        <link href="../css/main.css" rel="stylesheet" type="text/css">
 
     </head>  <!--end of head=-->
     <body>
         <div class="page">
             <header>    
                 <!--start of header=-->
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '/view/header.php'; ?>
+                <?php include '../view/header.php'; ?>
                 <!--start of header=-->
             </header>
             <nav>
                 <!--start of navigation=-->
-
+                <?php include '../view/nav.php'; ?>
                 <!--End of navigation=-->
             </nav>
             <h2> Edit Inventory</h2>
@@ -41,17 +41,14 @@
                     <input type="text" name="price" value="<?php echo $product['productPrice']; ?>"><br>
 
                     <label>&nbsp;</label>
-                    <input type="submit" value="Edit Product"><br>
+                    <input type="submit" value="Update Product"><br>
                 </form>
-              
-      <a href="?action=add_product"><button class="button" style="vertical-align:middle"><span>Add Product</span></button></a>
+                <a href="?action=add_product" class="button" style="vertical-align:middle"><span>Add Product</span></a>
             </main>
             <footer>
-
+                <?php include '../view/footer.php'; ?>
             </footer>
         </div>
     </body>
 </html>
-
-
 

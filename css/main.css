@@ -8,7 +8,7 @@ body {
 }
 
 
-button {
+.button {
   display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
@@ -22,7 +22,13 @@ button {
   cursor: pointer;
   margin: 55px;
 }
-
+a.button {
+    
+    appearance: button;
+     color: #FFFFFF;
+    text-decoration: none;
+   
+}
 
 .button span {
   cursor: pointer;
@@ -63,14 +69,13 @@ ul {
 /*Create a horizontal list with spacing*/
 li {
     display: inline-block;
-    max-width: 204px;
-    padding: 1px .5px 0 8px;
+    max-width: 210px;
+    padding: 34px 57.5px 7px 18px;
 }
 
 /*Style for menu links*/
 li a {
     display: block;
-   
     height: 32px;
     text-align: center;
     line-height: 30px;
@@ -81,13 +86,13 @@ li a {
 
 /*Hover state for top level links*/
 li:hover a {
-    background: #222E33;
+
     color: #f9fbf7;
 }
 
 /*Style for dropdown links*/
 li:hover ul a {
-    background: #222E33;
+
     color: #f9fbf7;
     height: 30px;
     line-height: 30px;
@@ -104,10 +109,10 @@ li:hover ul a {
 }
 main {
 text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 525px;
    
 margin-top: 50px;
-height: 450px;
+height: 350px;
 color:#f4511e;
 }
 header li {
@@ -115,6 +120,18 @@ header li {
 
 }
 
+.footer{
+    display: inline-block;
+    
+}
+
+.footer a{
+
+  color: #46B732;
+   text-decoration: none;
+    margin: 0 auto;
+
+}
 
 h2{
     text-align: center;
@@ -126,7 +143,7 @@ h2{
 
 
 #add_product_form {
-
+    color: #f9fbf7;
      color: #b9da36;
     
 }
