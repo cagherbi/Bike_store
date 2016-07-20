@@ -1,58 +1,54 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-
     background-color: black;
-        
-        
-    
 }
 
 
 .button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 18px;
-  padding: 15px;
-  width: 180px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 55px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 55px;
 }
 a.button {
-    
+
     appearance: button;
-     color: #FFFFFF;
+    color: #FFFFFF;
     text-decoration: none;
-   
+
 }
 
 .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .button span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.6s;
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.6s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .button:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
 /*Strip the ul of padding and list styling*/
@@ -104,16 +100,13 @@ li:hover ul a {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-  
+
     margin-top: 0px;
 }
 main {
-text-align: center;
-    margin-bottom: 525px;
-   
-margin-top: 50px;
-height: 350px;
-color:#f4511e;
+    text-align: center;
+    margin-top: 50px;
+    color:#f4511e;
 }
 header li {
     display: inline;
@@ -122,13 +115,16 @@ header li {
 
 .footer{
     display: inline-block;
-    
+    margin: 21px 60px;
+    border-top: 2px solid #b9da36;
+    padding: 24px;
+
 }
 
 .footer a{
 
-  color: #46B732;
-   text-decoration: none;
+    color: #46B732;
+    text-decoration: none;
     margin: 0 auto;
 
 }
@@ -144,8 +140,8 @@ h2{
 
 #add_product_form {
     color: #f9fbf7;
-     color: #b9da36;
-    
+    color: #b9da36;
+
 }
 #add_product_form label {
     width: 5em;
@@ -158,11 +154,11 @@ h2{
 
 
 #add_product_form input {
-  color:black;
+    color:black;
     padding: 2px auto;
     margin: 10px auto;
-  
-   
+
+
 }
 #add_product_form input[text] {
     width: 35em;
@@ -171,10 +167,10 @@ h2{
 
 
 table {
-     color: #b9da36;
+    color: #b9da36;
     border-collapse: collapse;
     margin:0 auto;
-   
+
 }
 td, th {
 
@@ -191,11 +187,11 @@ form {
 }
 
 #edit_product_form input {
-   
+
     text-align: left;
 }   
 #edit_product_form input {
-   
+
     padding: 2px auto;
     margin: 10px auto;
 

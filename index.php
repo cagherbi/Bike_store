@@ -25,6 +25,9 @@
 
                 <h2>WELCOME TO BIKE DESERT STORE</h2>
                <a href="/store/register/"><button class="button" style="vertical-align:middle"><span>Login</span></button></a>
+               <br>
+            <a href=" https://youtu.be/WTuFG4cFATM" class="button" style="vertical-align:middle"><span>Video</span></a>
+
             </main>
 
             <footer>
